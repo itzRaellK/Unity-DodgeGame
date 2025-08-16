@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido durante o **Módulo 2 do curso de Unity**, com foco na criação de um jogo simples de **desviar de obstáculos**. O objetivo é praticar conceitos fundamentais da Unity e da linguagem C#, construindo uma base sólida para projetos mais avançados.
 
-![Preview](\img\img1.gif)
+![Preview](img/img1.gif)
 
 ## 🚀 Funcionalidades Aprendidas
 - Estrutura básica com **Start() e Update()**
