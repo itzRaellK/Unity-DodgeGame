@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField] float speed = 1.0f;
+    [SerializeField] float speed = 0.0f;
     [SerializeField] float maxSpeed = 7.0f;
     //[SerializeField] float minSpeed = 1.0f;
     [SerializeField] float acceleration = 0.05f;
