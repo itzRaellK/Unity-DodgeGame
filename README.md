@@ -29,4 +29,5 @@ O jogador deve controlar o personagem e **evitar obstáculos** enquanto sobreviv
 - **C#** (Linguagem de programação)
 
 ---
-📌 Este é um projeto de aprendizado, servindo como base para aprofundar conhecimentos em desenvolvimento de jogos com Unity.
+- Este é um projeto de aprendizado, servindo como base para aprofundar conhecimentos em desenvolvimento de jogos com Unity.
+- Em desenvolvimento!
