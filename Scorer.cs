@@ -5,10 +5,10 @@ public class Scorer : MonoBehaviour
     int hits = 0;
     private void OnCollisionEnter(Collision other)
     {
-        if (hits > 0)
+        if (other.gameObject.tag != "Ground" && other.gameObject.tag != "Hit")
         {
-            Debug.Log("Você colidiu " + hits + " vezes!");
+            hits++;
+            Debug.Log("Você colidiu " + hits + " vezes!");   
         }
-        hits++;
     }
 }
