@@ -32,12 +32,15 @@ public class Mover : MonoBehaviour
 
     void MovePlayer()
     {
+        // Pega o input do teclado
         float xValue = Input.GetAxis("Horizontal");
         float yValue = 0f;
         float zValue = Input.GetAxis("Vertical");
 
+        // Calcula o movimento
         Vector3 move = new Vector3(xValue, yValue, zValue) * speed * Time.deltaTime;
 
+        // Aplica aceleração e desaceleração
         if (xValue != 0 || zValue != 0)
         {
             speed += acceleration;
@@ -55,6 +58,7 @@ public class Mover : MonoBehaviour
             }*/
         }
 
+        // Move o jogador
         transform.Translate(move, Space.World);
 
         // Faz a bola girar se estiver se movendo
